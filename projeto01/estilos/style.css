@@ -26,6 +26,16 @@ h1 {
     text-shadow: 1px 5px 10px rgba(0, 0, 0, 0.498);
 }
 
+#botao{
+    width: 50%;
+    border: none;
+    padding: 5px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    background-color: rgb(31, 135, 101);
+}
+
 main {
     max-height: 80%;
     width: 100%;
@@ -61,7 +71,8 @@ main > input {
 }
 
 main > img {
-    width: 100%; 
+    width: 70%; 
+    margin: 0 auto;
     margin-bottom: 10px;
     overflow: hidden;
     background-size: cover;
