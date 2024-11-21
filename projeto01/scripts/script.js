@@ -22,8 +22,16 @@ function envio(){
             catalago.innerHTML = `Nosso catalogo:.(Selecione para ver as disponibilidades)`
 
             botaoAção.onclick = function(){
-                
+                var catalagoImagens = document.getElementById('imangesCatalago')
+                var imagens = document.querySelectorAll('img.remover')
+                imagens.forEach(imagem => imagem.remove());
+
+                var img = document.createElement('img')
+                img.setAttribute('id', 'fotos')
+                img.setAttribute('src', 'imagens/ação/CodigodeHonra.png')
+                catalagoImagens.appendChild(img)
             }
+            
 
             botaoRomance.onclick = function(){
 
