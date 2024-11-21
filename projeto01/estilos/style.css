@@ -88,3 +88,17 @@ footer {
     padding: 5px;
     
 }
+
+button {
+    display: flex;
+    justify-content: center;
+    justify-self: center;
+    text-align: center;
+    width: 50%;
+    margin: 5px;
+    border-radius: 5px;
+    padding: 5px;
+    border: none;
+    
+    
+}
