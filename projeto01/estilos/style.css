@@ -56,8 +56,8 @@ main > p {
     text-align: center;
 }
 #pergunta{
-    background-color: aqua;
-    padding: 20px;
+    padding: auto;
+    
 }
 
 main > input {

@@ -11,7 +11,30 @@ function envio(){
         botaoSim.textContent = 'Sim'
         botaoNao.textContent = "Não"
         botaoSim.onclick = function(){
-            catalago.innerHTML = `Nosso catalogo: [Ação] [Romance] [Comedia].`
+            var botaoAção = document.createElement('button')
+            var botaoRomance = document.createElement('button')
+            var botaoComedia = document.createElement('button')
+
+            botaoAção.textContent = 'Ação'
+            botaoRomance.textContent = 'Romance'
+            botaoComedia.textContent = 'Comedia'
+
+            catalago.innerHTML = `Nosso catalogo:.(Selecione para ver as disponibilidades)`
+
+            botaoAção.onclick = function(){
+                
+            }
+
+            botaoRomance.onclick = function(){
+
+            }
+            
+            botaoComedia.onclick =  function(){
+
+            }
+            catalago.appendChild(botaoAção)
+            catalago.appendChild(botaoRomance)
+            catalago.appendChild(botaoComedia)
         }
 
         botaoNao.onclick = function(){
