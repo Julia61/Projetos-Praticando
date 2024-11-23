@@ -46,7 +46,7 @@ function envio(){
         }
 
         botaoNao.onclick = function(){
-            catalago.innerHTML = "Ta bom"
+            catalago.innerHTML = "OK"
         }
         catalago.appendChild(botaoSim)
         catalago.appendChild(botaoNao)
